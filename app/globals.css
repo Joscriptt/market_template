@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: InterBlack;
+  src: url("../public/font/InterBlack.ttf");
+}
+@font-face {
+  font-family: InterBold;
+  src: url("../public/font/InterBold.ttf");
+}
+@font-face {
+  font-family: InterMedium;
+  src: url("../public/font/InterMedium.ttf");
+}
+@font-face {
+  font-family: InterRegular;
+  src: url("../public/font/InterRegular.ttf");
+}
+
+@layer base {
+  body {
+    @apply dark:bg-[#161616] bg-[#ffffff] transition-all ease-in duration-200;
+  }
+}
+
+#svg2957212536 {
+  width: 20px;
+}
+
+.pageHeader {
+  width: 100%;
+  height: 26rem;
+  background-color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--token-5b9c8610-70d7-4211-b68f-b88f529f6ced, #181818),
+    var(--token-5b9c8610-70d7-4211-b68f-b88f529f6ced, #161616) 2.5px,
+    var(--token-54806cb2-05fb-4f34-b6e6-70551a794db0, #161616) 2.5px,
+    var(--token-54806cb2-05fb-4f34-b6e6-70551a794db0, #161616) 10px
+  );
+  border-radius: 0px;
+}
+.page {
+  width: 100%;
+
+  background-color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--token-5b9c8610-70d7-4211-b68f-b88f529f6ced, #181818),
+    var(--token-5b9c8610-70d7-4211-b68f-b88f529f6ced, #161616) 2.5px,
+    var(--token-54806cb2-05fb-4f34-b6e6-70551a794db0, #161616) 2.5px,
+    var(--token-54806cb2-05fb-4f34-b6e6-70551a794db0, #161616) 10px
+  );
+  border-radius: 0px;
+}
